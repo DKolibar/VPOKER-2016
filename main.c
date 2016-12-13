@@ -567,7 +567,8 @@ void cennik()
 			
 		if(vstup=='f'||vstup=='F')
 		{
-			PlaySound("zvuky/gombik.wav",NULL,SND_FILENAME|SND_ASYNC);
+			if(zvuk!=0)
+				PlaySound("zvuky/gombik.wav",NULL,SND_FILENAME|SND_ASYNC);
 			if(rychly_rezim==0)
 				rychly_rezim=1;
 			else
@@ -617,9 +618,9 @@ void cennik()
 	if(tah==0)
 		tah++;
 	if(rychly_rezim==1)
-			Sleep(1);
-		else
-			Sleep(250);		
+		Sleep(1);
+	else
+		Sleep(250);		
 }
 
 void kartyz_tahhraca()
@@ -1955,7 +1956,7 @@ void kontrola()
 		tah=1;
 		prehral=1;
 		remove("hrac.dk");	//<<< ODSTRANI DATA O HRACOVI
-	}
+	}	
 	
 	if(budget1*nasobok<1&&vyhral!=1&&tah!=1)
 	{
@@ -1972,7 +1973,7 @@ void kontrola()
 		printf("         Press any key for return to menu...");				
 		skonciavratsadomenu=1;
 		tah=1;					
-	}
+	}	
 	
 	if(tah!=1)
 	{
