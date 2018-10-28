@@ -6,7 +6,7 @@
 --- 
 
 Game created for Windows Command Line interface. 
-Video poker is a casino game based on five-card draw poker. Game has sounds effects. I programmed it during my studies on SPŠE
+Video poker is a casino game based on five-card draw poker. Game has sounds effects, it can save player progress. I programmed it during my studies on SPŠE
 with usage of windows.h library, so it will work ONLY on Windows. 
 
 #### For Windows 10 you need to use "Legacy console" otherwise characters will not show correctly
