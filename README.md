@@ -12,6 +12,9 @@ with usage of windows.h library, so it will work ONLY on Windows.
 #### For Windows 10 you need to use "Legacy console" otherwise characters will not show correctly
 
 ---
+Recently I created this game also in Scratch for school assigment xd: https://scratch.mit.edu/projects/262140388/
+
+---
 #### Screenshots:
 
 ![game](https://i.imgur.com/18D8qxA.png)
